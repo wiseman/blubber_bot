@@ -1,5 +1,10 @@
-/* Blimp behavior program v 0.5
-5 volt power
+/* Blimp behavior program v 1.01
+3 volt power
+ */
+ 
+ /*
+ Revision Version 1.01
+ Fix the dreaming bug by making the dreaming test relatively prime to the resting test
  */
 
 /*
@@ -29,7 +34,7 @@ Features
   todo:
   Serial Links
  */
-char copyright [] = {'V', '1', '.', '0', 'J', 'B', 'e', 'r', 'k', 'C','2','0','0','7'};
+char copyright [] = {'V', '1', '.', '0','1', 'J', 'B', 'e', 'r', 'k', 'C','2','0','0','7'};
  // motor controller left/right fwd/rev pin set
 #define mcLPinFwd 11   // HW pin ?? OK 
 #define mcLPinRev 8   // HW pin ?? OK 
@@ -210,7 +215,7 @@ void loop()
      restCounter += 1;
      digitalWrite (ledPinBlue, LOW);
      ledSeeker();
-     if ((restCounter % 41) == 0) nextMood = Dreaming; // 8 sec times the remainder - about 5.5 min
+     if ((restCounter % 31) == 0) nextMood = Dreaming; // 8 sec times the remainder - about 5.5 min // fix dreaming bug
      if (bumpDetected || phoneDetected) {
        nextMood = LightSeeker1;
        restCounter = 0; }
