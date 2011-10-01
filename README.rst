@@ -11,7 +11,8 @@ The blubber bot that you can `buy through the Maker Shed Store`_ has two
 motors, two light sensors, a bump sensor, a piezo speaker, a vibrator.
 Its brain is an Arduino-compatible AVR ATmega168V microcontroller.
 
-This repository contains the Arduino sketches that make up the blimp's control code.
+This repository contains a copy of the Arduino sketches that make up
+the blimp's control code, generously made available by Jed Berk.
 
 .. image:: http://farm2.static.flickr.com/1312/678378595_3240fdfee4.jpg
 
