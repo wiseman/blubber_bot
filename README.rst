@@ -7,9 +7,10 @@ blubber_bot
 `Blubber bots`_ are inexpensive robot blimps.  They were designed by Jed
 Berk and are descended from his work with `Autonomous Light Air Vessels`_ (ALAVs).
 
-The blubber bot that you can `buy through the Maker Shed Store`_ has two
-motors, two light sensors, a bump sensor, a piezo speaker, a vibrator.
-Its brain is an Arduino-compatible AVR ATmega168V microcontroller.
+The blubber bot that you can `buy through the Maker Shed Store`_ has
+two motors, two light sensors, a bump sensor, a piezo speaker, a
+vibrator, and a cell phone signal detector.  Its brain is an
+Arduino-compatible AVR ATmega168V microcontroller.
 
 This repository contains a copy of the Arduino sketches that make up
 the blimp's control code, generously made available by Jed Berk.
