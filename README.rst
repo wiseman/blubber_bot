@@ -1,4 +1,5 @@
 .. image:: http://www.eggshell-robotics.com/pictures/BlubberBot.jpg
+   :align: left
 
 blubber_bot
 ===========
@@ -13,7 +14,6 @@ Its brain is an Arduino-compatible AVR ATmega168V microcontroller.
 This repository contains the Arduino sketches that make up the blimp's control code.
 
 .. image:: http://farm2.static.flickr.com/1312/678378595_3240fdfee4.jpg
-
 
 .. _Blubber bots: http://blog.makezine.com/archive/2008/11/jed-burk-and-the-blubber.html
 .. _Autonomous Light Air Vessels:  http://www.alavs.com/
