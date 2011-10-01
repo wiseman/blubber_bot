@@ -1,4 +1,4 @@
-.. image:: images/blubber_bot.png
+.. image:: https://github.com/wiseman/blubber_bot/raw/master/images/blubber_bot.png
    :align: left
 
 blubber_bot
