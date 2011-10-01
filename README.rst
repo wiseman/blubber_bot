@@ -15,6 +15,7 @@ This repository contains a copy of the Arduino sketches that make up
 the blimp's control code, generously made available by Jed Berk.
 
 .. image:: http://farm2.static.flickr.com/1312/678378595_3240fdfee4.jpg
+   :target: http://www.flickr.com/photos/wallofhair/678378595/in/set-72157601152180411/
 
 .. _Blubber bots: http://blog.makezine.com/archive/2008/11/jed-burk-and-the-blubber.html
 .. _Autonomous Light Air Vessels:  http://www.alavs.com/
