@@ -1,4 +1,4 @@
-.. image:: http://www.eggshell-robotics.com/pictures/BlubberBot.jpg
+.. image:: images/blubber_bot.png
    :align: left
 
 blubber_bot
