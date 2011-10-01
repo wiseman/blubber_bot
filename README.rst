@@ -1,5 +1,5 @@
 .. image:: https://github.com/wiseman/blubber_bot/raw/master/images/blubber_bot.png
-   :align: left
+   :align: right
 
 blubber_bot
 ===========
