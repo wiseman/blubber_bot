@@ -69,7 +69,7 @@ int MAX_COUNT = sizeof(melody) / 2; // Melody length, for looping.
 //int rest_count = 100;
 
 // Initialize
-int tone = 0;
+int bb_tone = 0;
 int beat = 0;
 int pause = 0;
 
@@ -77,10 +77,10 @@ int pause = 0;
 // version 4a: uses all int arithmetic
 void playNote() {
   // bury the setup in the inter note silence
-  int pulse_width = tone >> 1;
+  int pulse_width = bb_tone >> 1;
   int elapsed_time = 0;
   int duration = beat * (tempo>>3); // Set up timing
-  tone = tone>>3;
+  bb_tone = bb_tone>>3;
   
   digitalWrite (ledPinBlue, HIGH);
   elapsed_time = 0;
@@ -89,7 +89,7 @@ void playNote() {
       delayMicroseconds(pulse_width);
       digitalWrite(piezoPin, LOW);
       delayMicroseconds(pulse_width);
-      elapsed_time += tone;
+      elapsed_time += bb_tone;
     }
    digitalWrite (ledPinBlue, LOW); 
   }
@@ -99,7 +99,7 @@ void playNote() {
 void playPause() {
   long elapsed_time = 0;
   long duration = max(pause, 2) * tempo; // Set up timing
-  int pulse_width = tone >> 1;
+  int pulse_width = bb_tone >> 1;
   
   digitalWrite (ledPinRed, HIGH);
   elapsed_time = 0;
@@ -108,7 +108,7 @@ void playPause() {
       delayMicroseconds(pulse_width);
       digitalWrite(piezoPin, LOW);
       delayMicroseconds(pulse_width);
-      elapsed_time += tone;
+      elapsed_time += bb_tone;
     }
     digitalWrite (ledPinRed, LOW);
 } 
@@ -116,7 +116,7 @@ void playPause() {
 // Play the song
 void playSong () {
   for (int i=0; i<MAX_COUNT; i++) {
-    tone  = melody[i];
+    bb_tone  = melody[i];
     beat  = (int)beats[i];
     pause = (int)pauses[i];
 
