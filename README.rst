@@ -4,8 +4,9 @@
 blubber_bot
 ===========
 
-`Blubber bots`_ are inexpensive robot blimps.  They were designed by Jed
-Berk and are descended from his work with `Autonomous Light Air Vessels`_ (ALAVs).
+`Blubber bots`_ are inexpensive robot blimps.  They were designed by
+`Jed Berk`_ and are descended from his work with `Autonomous Light Air
+Vessels`_ (ALAVs).
 
 The blubber bot that you can `buy through the Maker Shed Store`_ has
 two motors, two light sensors, a bump sensor, a piezo speaker, a
@@ -19,6 +20,7 @@ the blimp's control code, generously made available by Jed Berk.
    :target: http://www.flickr.com/photos/wallofhair/678378595/in/set-72157601152180411/
 
 .. _Blubber bots: http://blog.makezine.com/archive/2008/11/jed-burk-and-the-blubber.html
+.. _Jed Berk: http://www.degree119.com/
 .. _Autonomous Light Air Vessels:  http://www.alavs.com/
 .. _buy through the Maker Shed Store: http://www.makershed.com/ProductDetails.asp?ProductCode=MKBRI
 .. _repository: https://github.com/wiseman/blubber_bot
